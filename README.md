@@ -24,9 +24,9 @@ Posterr only has two pages, the homepage, and the user profile page, which are d
 **User profile page**
 
 - Shows data about the user:
-    - Username
-    - Date joined ElonMuskerr, formatted as such: "March 25, 2021"
-    - Count of number of posts the user has made (including reposts and quote posts)
+  - Username
+  - Date joined ElonMuskerr, formatted as such: "March 25, 2021"
+  - Count of number of posts the user has made (including reposts and quote posts)
 - Shows a feed of the posts the user has made (including reposts and quote posts), starting with the latest 5 posts. Older posts are loaded on-demand when the user clicks on a button at the bottom of the page labeled "show more".
 - New posts can be written from this page: for this assessment, when writing a post from the profile screen, the profile user should be set as the author of the new content.
 
@@ -70,7 +70,7 @@ In any project, it is always a challenge to get the code perfectly how you'd wan
 
 - Reflect on this project, and write what you would improve if you had more time.
 - Write about scaling.
-    - If this project were to grow and have many users and posts, which parts do you think would fail first?
-    - In a real-life situation, what steps would you take to scale this product? What other types of technology and infrastructure might you need to use?
+  - If this project were to grow and have many users and posts, which parts do you think would fail first?
+  - In a real-life situation, what steps would you take to scale this product? What other types of technology and infrastructure might you need to use?
 
 This should be added as a section called "Critique" (**please provide as much detail as possible)** in the README.
