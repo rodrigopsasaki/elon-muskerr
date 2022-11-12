@@ -1,0 +1,21 @@
+name: Run all tests on pull requests
+
+on: [pull_request, workflow_dispatch]
+
+jobs:
+  test:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install PNPM
+        uses: pnpm/action-setup@v2
+        with:
+          version: 7.14.1
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Run tests
+        run: pnpm test
